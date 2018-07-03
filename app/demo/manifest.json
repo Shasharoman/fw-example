@@ -1,0 +1,13 @@
+{
+    "name": "demo",
+    "routes": [{
+        "name": "hello",
+        "path": "/api/demo/hello",
+        "method": "get",
+        "impl": "hello"
+    }],
+    "services": [{
+        "name": "echo",
+        "impl": "echo"
+    }]
+}

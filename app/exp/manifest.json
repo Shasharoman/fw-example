@@ -1,0 +1,15 @@
+{
+    "name": "exp",
+    "routes": [{
+        "name": "hello",
+        "path": "/api/exp/hello",
+        "method": "get",
+        "impl": "hello"
+    }, {
+        "name": "random",
+        "path": "/api/exp/random",
+        "method": "get",
+        "impl": "random"
+    }],
+    "services": []
+}
